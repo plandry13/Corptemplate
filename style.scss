@@ -4,7 +4,7 @@ $greytext: #777;
 $greybg: #f9f9ff;
 $yellow: #fab700;
 $footerbg: #04091e;
-$overlay: rgba(0,0,0,0.7);
+$overlay: rgba(0,33,71,0.7);
 $bdc: rgba(255,255,255,.3);
 *{
 	box-sizing: border-box;
@@ -12,10 +12,20 @@ $bdc: rgba(255,255,255,.3);
 	padding: 0;
 	font-family: "Roboto", sans-serif;
 }
+h2{
+	font-size: 3rem;
+	font-weight: 300;
+	text-transform: capitalize;
+	margin-bottom: 1.5rem;
+}
 .container{
 	width: 100%;
 	max-width: 1140px;
 	margin: 0 auto;
+}
+a, a:visited{
+	text-decoration: none;
+	color: white;
 }
 // hr{
 // 	border: none;
@@ -115,12 +125,12 @@ nav{
 		position: relative;
 	
 	h3{
-		font-weight: 400;
-		font-size: 16px;
+		font-weight: 700;
+		font-size: 46px;
 		text-transform: uppercase;
 	}
 	h1{
-		font-size: 5px;
+		font-size: 23px;
 		line-height: 1;
 		margin:22px 0;
 	}
@@ -139,6 +149,7 @@ nav{
 		margin:34px 0 0 0;
 		border: 1px solid $yellow;
 		transition: background 700ms;
+		
 		&:hover{
 			
 			background: $yellow;
@@ -274,12 +285,7 @@ nav{
 	width: 100%;
 	background: $greybg;
 	padding: 120px 0;
-	h2{
-		font-size: 3rem;
-		font-weight: 300;
-		text-transform: capitalize;
-		margin-bottom: 1.5rem;
-	}
+	
 	p{
 		max-width: 720px;
 		margin: auto;
