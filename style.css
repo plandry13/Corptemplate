@@ -79,7 +79,7 @@ nav .topNav .container .contact a {
 }
 
 nav .topNav .container .contact a:hover {
-  color: #fab700;
+  color: #f3f169;
 }
 
 nav .bottomNav {
@@ -114,7 +114,8 @@ nav .bottomNav .container a {
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(0, 33, 71, 0.7);
+  background:rgb(	45, 108, 223,0.7);
+  
 }
 
 .main .container {
@@ -150,13 +151,13 @@ nav .bottomNav .container a {
           columns: #fff;
   font-size: 14px;
   margin: 34px 0 0 0;
-  border: 1px solid #fab700;
+  border: 1px solid #f3f169;
   -webkit-transition: background 700ms;
   transition: background 700ms;
 }
 
 .main .container .btn:hover {
-  background: #fab700;
+  background: #f3f169;
 }
 
 .main .container a {
@@ -189,7 +190,7 @@ nav .bottomNav .container a {
 }
 
 .services .container .card:hover {
-  background: #fab700;
+  background: #f3f169;
 }
 
 .services .container .cardBg {
@@ -244,7 +245,7 @@ nav .bottomNav .container a {
 }
 
 .features .container .featureCard:hover {
-  background: #fab700;
+  background: #f3f169;
 }
 
 .features .container .featureCard .heading {
@@ -268,7 +269,7 @@ nav .bottomNav .container a {
 
 .clients {
   width: 100%;
-  background: #fab700;
+  background: #f3f169;
   padding: 120px 0;
 }
 
@@ -359,7 +360,7 @@ nav .bottomNav .container a {
 }
 
 .blog .container .blogCard:hover .blogInfo h3 {
-  color: #fab700;
+  color: #f3f169;
 }
 
 .blog .container .blogCard:hover .blogBg img {
@@ -392,6 +393,11 @@ nav .bottomNav .container a {
   font-size: 14px;
 }
 
+.blog .container .blogCard .blogInfo {
+  padding: 30px;
+  text-align: left;
+}
+
 .blog .container .blogCard .blogInfo h3 {
   padding: 6px;
   font-size: 1.75rem;
@@ -402,7 +408,6 @@ nav .bottomNav .container a {
 }
 
 .blog .container .blogCard .blogInfo p {
-  padding: 6px;
   color: #777;
   line-height: 1.4;
   margin: 14px 0 4px 0;
@@ -492,7 +497,7 @@ footer .container .box i {
 
 footer .container .box a {
   text-decoration: none;
-  color: #fab700;
+  color: #f3f169;
 }
 
 footer .container .box hr {
@@ -518,7 +523,7 @@ footer .container .box .email input {
 }
 
 footer .container .box .btn {
-  background: #fab700;
+  background: #f3f169;
   padding: 13px 18px;
   color: #fff;
 }
@@ -535,6 +540,6 @@ footer .container .box .icons i {
 }
 
 footer .container .box .icons i:hover {
-  color: #fab700;
+  color: #f3f169;
 }
 /*# sourceMappingURL=style.css.map */
